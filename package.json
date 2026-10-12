@@ -1,0 +1,17 @@
+{
+  "name": "straustube",
+  "version": "1.0.0",
+  "private": true,
+  "description": "StrausTube — демонстрационный видеохостинг, работающий полностью в браузере (localStorage + IndexedDB).",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0"
+  }
+}
